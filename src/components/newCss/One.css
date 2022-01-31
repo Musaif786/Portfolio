@@ -1,0 +1,235 @@
+
+.wrapper{
+    display: flex;
+    position: relative;
+    
+}
+.h1-box{
+    position: relative;
+    padding: 10px 25px;
+    margin-right:10px ;
+    margin-top: 100px;
+}
+.h1-box h1{
+    padding:2px;
+    font-size: 28px;
+}
+.h1-box h1 span{
+  color: purple;
+    font-size: 34px;
+}
+.img-box{
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 15px;
+    
+
+}
+.img-box::before{
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+    background-color: red;
+    overflow: hidden;
+}
+.img-box img{
+    border-radius: 10px ;
+    height: 100%;
+    width: 100%;
+    animation: upanddown 3s linear infinite;
+}
+.about-container h3{
+ font-size: 20px;
+letter-spacing: 1.5px;
+}
+.about-container p{
+    padding: 5px 10px ;
+}
+.about-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+.about-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.about-container p{
+    font-size: 18px;
+}
+/* skills */
+.skills{
+    margin-top: 50px;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills-container h3{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    align-items: center;
+
+}
+.skills-container progress{
+    height: 40px;
+    margin: 5px auto;
+}
+@keyframes upanddown {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+.about{
+    position: relative;
+    margin-top: 150px;
+    
+}
+.about-h1 h1{
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0.5;
+}
+.about-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* //skill */
+.skills{
+    margin-top: 100px;
+
+}
+.progress-box{
+    min-width: 80%;
+}
+.progress-box progress{
+    width: 100%;
+}
+
+
+/* //tools */
+.Tools{
+    margin-top: 100px;
+}
+.tools-h1 h1{
+    opacity: 0.5;
+    text-align: center;
+}
+.tools-container{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+}
+.tools-container ol li{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+/* projects */
+.projects{
+    margin-top: 100px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.projects-imgs {
+   width: 100%;
+   display: flex;
+   justify-content:space-between;
+   flex-wrap: wrap;
+
+}
+.projects-imgs img{
+    height: 200px;
+    width: 200px;
+    margin: 12px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px black;
+    cursor: pointer;
+}
+/* //comtact */
+.contact{
+    margin-top: 100px;
+}
+.form-wrapper{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+}
+form{
+    
+display: block;
+background-color: rgb(175, 175, 175);
+width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: 10px auto;
+}
+form input{
+    padding: 10px 15px;
+    border-radius: 8px ;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 60%;
+}
+form label{
+    margin: 10px auto;
+    
+}
+textarea{
+    padding: 10px 15px;
+    border-radius: 8px ;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 60%;
+
+}
+.btn-div{
+    margin-top: 10px;
+    width: 100%;
+  
+    text-align: center;
+}
+.btn{
+    padding: 6px 40px;
+    margin: 5px auto;
+}
+@media only screen and (max-width:1200px) {
+    .img-box{
+      
+        margin-left: 0px;
+        width: 450px;
+        max-width: 400px;
+        margin-right: 50px;
+        min-width:200px;
+        
+    
+    }
+    
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import "../css/Tudo.css";
-import TudoList from "../components/TudoList";
+import "../../css/Tudo.css";
+import TudoList from "../tudobox/TudoList";
 
 function Tudo() {
 

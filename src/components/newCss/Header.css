@@ -1,0 +1,100 @@
+.header-box{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0px;
+    font-family: 'poppins', sans-serif;
+   
+
+}
+.logo{
+    
+    margin: 0px;
+    padding: 0px 5px;
+}
+.logo h1{
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+}
+.header-list ul{
+    display: flex;
+    margin-right: 5px;
+    
+    
+}
+.header-list ul li{
+    margin: 0px 10px;
+    padding: 0px;
+    list-style: none;
+}
+.header-list ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.header-btn{
+    display: none;
+}
+.header-hr{
+    color: red;
+    background-color: black;
+    width: 100%;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width : 621px) {
+    .header-box{
+        background-color: white;
+    }  
+
+    .header-list ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(160, 160, 160);
+        padding: 10px 5px;
+        z-index: 1;
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+    .header-list ul li{
+        margin: 10px;
+    }
+    .header-list ul.openbar{
+        display: block;
+        transition: 0.5s;
+    }
+    .header-btn{
+        display:block;
+        
+
+    }
+    .header-btn button{
+        font-size: 24px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    .header-btn button #up{
+        display: none;
+    }
+    .header-btn button #down{
+        display: block;
+    }
+     .header-btn button #down{
+        display: block;
+    }
+    .header-btn button #up.openbar{
+        display: block;
+    }
+    .header-btn button #down.openbar{
+        display: none;
+    }
+
+}
