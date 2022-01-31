@@ -13,14 +13,15 @@ function One() {
     <>
       <main>
         <div className="wrapper">
-          <div className="h1-box" data-aos="fade-down-left">
+          <div className="h1-box" data-aos="zoom-in-down"
+>
             <h1>
               Hi, I am <span>Mohammed Musaif</span> Full stack web developer{" "}
             </h1>
           </div>
           <div className="img-box">
             <img
-              src="./images/musaif.jpg"
+              src="https://source.unsplash.com/400x250/?software/programmer"
               alt="auto/img"
             />
           </div>
@@ -28,10 +29,12 @@ function One() {
 
         <div id="about" className="about">
         
-          <div className="about-h1" data-aos="fade-down-left">
+          <div className="about-h1" data-aos="zoom-in-down"
+>
             <h1>About</h1>
           </div>
-          <div className="about-container" data-aos="fade-down-right">
+          <div className="about-container" data-aos="zoom-in-down"
+>
             <div className="about-img">
               <img
                 src="./images/musaif.jpg"
@@ -40,7 +43,8 @@ function One() {
               />
             </div>
             <h3>Moahmmed Musaif</h3>
-            <p data-aos="fade-down-left">
+            <p data-aos="zoom-in-down"
+>
               I'm 23 year's old i graduated in Mechanical Engineer at CMR
               Engineering College and i'm from Banjara hills Hyderabad India
             </p>
@@ -48,70 +52,80 @@ function One() {
         </div>
 
         <div id="skills" className="skills">
-          <div className="about-h1" data-aos="fade-down-left">
+          <div className="about-h1" data-aos="zoom-in-down"
+>
             <h1>Skills</h1>
           </div>
           <div className=" skills-container">
             <h3> professional skills </h3>
             <div className="progress-box">
               <progress
-                data-aos="fade-down-left"
+                data-aos="zoom-in-down"
+
                 value="90"
                 max="100"
               ></progress>
               <p>HTML</p>
               <hr />
               <progress
-                data-aos="fade-down-right"
+                data-aos="zoom-in-down"
+
                 value="90"
                 max="100"
               ></progress>
               <p>CSS</p>
               <hr />
               <progress
-                data-aos="fade-down-left"
+                data-aos="zoom-in-down"
+
                 value="80"
                 max="100"
               ></progress>
               <p>JavaScript</p>
               <hr />
               <progress
-                data-aos="fade-down-right"
+                data-aos="zoom-in-down"
+
                 value="80"
                 max="100"
               ></progress>
               <p>React-js</p>
               <hr />
               <progress
-                data-aos="fade-down-left"
+                data-aos="zoom-in-down"
+
                 value="80"
                 max="100"
               ></progress>
               <p>Bootstrap</p>
               <hr />
               <progress
-                data-aos="fade-down-right"
+                data-aos="zoom-in-down"
+
                 value="80"
                 max="100"
               ></progress>
               <p>Core Java</p>
               <hr />
               <progress
-                data-aos="fade-down-left"
+                data-aos="zoom-in-down"
+
                 value="60"
                 max="100"
               ></progress>
               <p>Firebase</p>
               <hr />
               <progress
-                data-aos="fade-down-right"
+                data-aos="zoom-in-down"
+
                 value="40"
                 max="100"
               ></progress>
               <p>basic Reactive-Native</p>
               <hr />
               <progress
-                data-aos="fade-down-left"
+                data-aos="zoom-in-down"
+
                 value="50"
                 max="100"
               ></progress>
@@ -122,51 +136,71 @@ function One() {
         </div>
 
         <div id="tools" className="Tools">
-          <div data-aos="fade-down-left" className="tools-h1">
+          <div data-aos="zoom-in-down"
+ className="tools-h1">
             <h1>Tools</h1>
           </div>
           <div className="tools-container">
             <ol>
-              <li data-aos="fade-down-right">VSCode</li>
-              <li data-aos="fade-down-right">Eclipse</li>
-              <li data-aos="fade-down-right">Github</li>
+              <li data-aos="zoom-in-down"
+>VSCode</li>
+              <li data-aos="zoom-in-down"
+>Eclipse</li>
+              <li data-aos="zoom-in-down"
+>Github</li>
             </ol>
           </div>
         </div>
+        
 
         <div id="project" className="tools projects">
-          <div data-aos="fade-down-left" className="tools-h1 project-h1">
+          <div data-aos="zoom-in-down"
+ className="tools-h1 project-h1">
             {" "}
             <h1>Projects</h1>
           </div>
           <div className="projects">
             <div className="projects-imgs">
-            <a href="https://zfwork.netlify.app/"> <img data-aos="fade-down-left" 
+            <a href="https://zfwork.netlify.app/"> <img data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+ 
                 src="./images/Screenshot (39).png"
                 alt="auto/img"
               /></a>
 
-<a href="https://musaif-connecting-people.netlify.app/"> <img data-aos="fade-down-left" 
+<a href="https://musaif-connecting-people.netlify.app/"> <img data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+ 
                 src="./images/Screenshot (35).png"
                 alt="auto/img"
               /></a>
 
 
-<a href="http://musaifofficial.000webhostapp.com/"> <img data-aos="fade-down-left" 
+<a href="http://musaifofficial.000webhostapp.com/"> <img data-aos="zoom-in-down"
+ 
                 src="./images/Screenshot (36).png"
                 alt="auto/img"
               /></a>
 
-<a href="https://musaif-database.netlify.app/"> <img data-aos="fade-down-left" 
+<a href="https://musaif-database.netlify.app/"> <img data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+ 
                 src="./images/Screenshot (38).png"
                 alt="auto/img"
               /></a>
 
-<a href="http://musaifofficial.000webhostapp.com/"> <img data-aos="fade-down-left" 
+<a href="http://musaifofficial.000webhostapp.com/"> <img data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+ 
                 src="./images/Screenshot (37).png"
                 alt="auto/img"
               /></a>
-              <a href="https://musaifresume.000webhostapp.com/"> <img data-aos="fade-down-left" 
+              <a href="https://musaifresume.000webhostapp.com/"> <img data-aos="zoom-in-down"
+ 
                 src="./images/Screenshot (40).png"
                 alt="auto/img"
               /></a>
@@ -175,7 +209,9 @@ function One() {
             </div>
           </div>
         </div>
-    <div id="contact">
+    <div id="contact"  data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <Register/>
     </div>
 
