@@ -61,7 +61,7 @@ function Header() {
             </button>
           </div>
         </div>
-        <hr className="header-hr" />
+        {/* <hr className="header-hr" /> */}
       </header>
     </>
   );
