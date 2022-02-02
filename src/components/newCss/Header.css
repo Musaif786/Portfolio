@@ -59,11 +59,14 @@
     .header-list ul{
         display: none;
         position: absolute;
-        width: 100%;
+        right: 0px;
+        margin-right: 0px;
+        width: 30%;
         height: 80vh;
-        background-color: rgb(230, 230, 230);
+        background-color: rgba(243, 242, 242, 0.986);
         padding: 10px 5px;
         z-index: 1;
+        transition: 1.5s;
         border-radius: 10px 0px 0px 10px;
         
     }
