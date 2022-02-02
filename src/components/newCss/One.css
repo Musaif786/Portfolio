@@ -19,6 +19,19 @@
 .h1-box h1{
     padding:2px;
     font-size: 28px;
+    animation: slide 4s linear infinite;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(10px);
+    }
+    50%{
+       transform: translateX(0px);
+   }
+   100%{
+       transform: translateX(10px);
+   }
+    
 }
 .h1-box h1 span{
   color: purple;
@@ -277,7 +290,7 @@ textarea{
  .wrapper::before{
      content: "";
      height: 320px;
-     width: 520px;
+     width: 450px;
      top: 21%;
      right: 0px;
  }
@@ -291,8 +304,21 @@ textarea{
  .h1-box h1{
      margin:2px 5px;
      font-size: 18px;
-
+      animation: slide 4s linear infinite;
  }
+ @keyframes slide {
+     0%{
+         transform: translateX(10px);
+     }
+     50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+     
+ }
+ 
  .h1-box h1 span{
      font-size: 26px
  }
