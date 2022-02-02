@@ -44,6 +44,7 @@
     background-color: black;
     width: 100%;
     opacity: 0.4;
+    margin-top: 0px;
 }
 
 @media only screen and (max-width : 621px) {
@@ -51,6 +52,8 @@
         background-color: white;
         margin-bottom: 80px;
         width: 100%;
+        padding: 8px 10px;
+        border-bottom: 1px solid rgb(228, 228, 228);
     }  
 
     .header-list ul{
@@ -100,4 +103,5 @@
         display: none;
     }
 
+  
 }

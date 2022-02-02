@@ -29,9 +29,10 @@ function Register() {
     e.preventDefault();
     setData({ ...data, error: null, loading: true });
     if (!name || !email || !comment) {
-      // toast.error("Plz fill each input field");
+      toast.error("Plz fill each input field");
       setData({ ...data, error: "all fields are required" });
-    }
+    
+  }else{
     try {
       
       toast.success("successfully Comment added");
@@ -51,6 +52,7 @@ function Register() {
       toast.error("error : "+err);
       setData({ ...data, error: err.message, loading: false });
     }
+  }
   };
 
   

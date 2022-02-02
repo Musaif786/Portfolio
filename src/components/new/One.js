@@ -42,7 +42,7 @@ function One() {
                 alt="auto/img"
               />
             </div>
-            <h3>Moahmmed Musaif</h3>
+            <h3 data-aos="zoom-in-down">Moahmmed Musaif</h3>
             <p data-aos="zoom-in-down"
 >
               I'm 23 year's old i graduated in Mechanical Engineer at CMR
@@ -57,7 +57,7 @@ function One() {
             <h1>Skills</h1>
           </div>
           <div className=" skills-container">
-            <h3> professional skills </h3>
+            <h3 data-aos="zoom-in-down" > professional skills </h3>
             <div className="progress-box">
               <progress
                 data-aos="zoom-in-down"

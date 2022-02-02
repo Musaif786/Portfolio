@@ -138,7 +138,10 @@ letter-spacing: 1.5px;
 .progress-box progress{
     width: 100%;
 }
-
+.skills-container h3{
+    font-weight: 400;
+    margin: 100px  auto 20px auto;
+}
 
 /* //tools */
 .Tools{
@@ -228,6 +231,9 @@ textarea{
   
     text-align: center;
 }
+#register-error{
+    margin: auto;
+}
 .btn{
     padding: 6px 40px;
     margin: 5px auto;
@@ -253,6 +259,13 @@ textarea{
      right: 30px;
      float: right;
  }
+ .wrapper::before{
+     content: "";
+     height: 320px;
+     width: 320px;
+     top: 25%;
+     right: 0px;
+ }
  .wrapper{
     
      width: 100%;
@@ -262,10 +275,11 @@ textarea{
  }
  .h1-box h1{
      margin:2px 5px;
+     font-size: 18px;
 
  }
  .h1-box h1 span{
-     font-size: 28px
+     font-size: 26px
  }
  /* .img-box{
      margin-top: 100px;
@@ -301,6 +315,24 @@ textarea{
  .about-img img{
      height: 280px;
  }
+ .about-container p{
+     margin: 5px auto;
+     padding: 2px auto;
+    text-transform: capitalize;
+    
+ }
+ .skills-container h3{
+     font-weight: 400;
+     margin: 100px  auto 20px auto;
+ }
+ .contact form{
+    
+     width: 100%;
+ }
+ #register-error{
+     margin: auto;
+ }
+
 }
 
 @media  screen and (max-width:1200px) and (min-width: 610px) {
