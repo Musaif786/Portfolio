@@ -42,11 +42,11 @@ function One() {
                 alt="auto/img"
               />
             </div>
-            <h3 data-aos="zoom-in-down">Moahmmed Musaif</h3>
+            <h3 data-aos="zoom-in-down">Mohammed Musaif</h3>
             <p data-aos="zoom-in-down"
 >
-              I'm 23 year's old i graduated in Mechanical Engineer at CMR
-              Engineering College and i'm from Banjara hills Hyderabad India
+             my name is Md Musaif. i'm from Hyderabad, telangana. i did my graduation in b.tech from CMR engineering college.
+             <button ><a href="https://musaifresume.000webhostapp.com/">More</a></button>
             </p>
           </div>
         </div>
