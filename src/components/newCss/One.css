@@ -157,6 +157,8 @@ letter-spacing: 1.5px;
 .tools-container ol li{
     margin-top: 5px;
     font-size: 18px;
+    margin-left: 30px;
+    padding: 5px 30px;
 }
 
 /* projects */
