@@ -243,7 +243,7 @@ textarea{
      width: 50%;
      position: absolute;
      top: 0;
-     left: 10px;
+     left: 1px;
  }
  .img-box{
   width: 160px !important;
@@ -256,7 +256,7 @@ textarea{
     
      width: 100%;
      position: relative;
-     height: 60vh;
+     height: 50vh;
     
  }
  .h1-box h1 span{
