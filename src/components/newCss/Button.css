@@ -1,0 +1,26 @@
+.topBtn{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    transition: 1.5s;
+    background-color: transparent;
+}
+
+
+.topBtn button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 8px 4px;
+    border-radius: 50% 50% 0px 0px;
+}
+.topBtn button i{
+    color: black;
+    height: 20px;
+    font-size: 24px;
+}
+.topBtn button i:hover{
+
+    color: purple;
+    font-size: 28px;
+    font-weight: 400;
+}

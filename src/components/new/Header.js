@@ -1,7 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../newCss/Header.css";
+import {useLocation , Link} from 'react-router-dom';
 
 function Header() {
+
+ const location = useLocation();
+ // console.log(location);
+
+ const getColor = (current)=>{
+  if(location.hash === current){
+    return "1px solid purple"
+  }
+ }
 
   const toggleBtn =()=>{
     let btn = document.querySelector(".header-btn");
@@ -22,7 +32,8 @@ function Header() {
 
   useEffect(()=>{
     toggleBtn();
-  })
+  });
+
   return (
     <>
       <header>
@@ -33,23 +44,22 @@ function Header() {
           <div className="header-list">
             <ul>
               <li>
-                {" "}
-                <a href="#home">Home</a>{" "}
+                <a href="#home" style={{borderBottom:getColor("#home")}}>Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" style={{borderBottom:getColor("#about")}}>About</a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills" style={{borderBottom:getColor("#skills")}}>Skills</a>
               </li>
               <li>
-                <a href="#tools">Tools</a>
+                <a href="#tools" style={{borderBottom:getColor("#tools")}}>Tools</a>
               </li>
               <li>
-                <a href="#project">Work</a>
+                <a href="#project" style={{borderBottom:getColor("#project")}}>Work</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" style={{borderBottom:getColor("#contact")}}>Contact</a>
               </li>
             </ul>
           </div>
