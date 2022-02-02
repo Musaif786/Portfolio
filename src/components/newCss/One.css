@@ -244,6 +244,7 @@ textarea{
      position: absolute;
      top: 0;
      left: 1px;
+     padding: 12px 0px;
  }
  .img-box{
   width: 160px !important;
@@ -258,6 +259,10 @@ textarea{
      position: relative;
      height: 50vh;
     
+ }
+ .h1-box h1{
+     margin:2px 5px;
+
  }
  .h1-box h1 span{
      font-size: 28px
