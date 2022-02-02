@@ -4,6 +4,8 @@
     right: 20px;
     transition: 1.5s;
     background-color: transparent;
+    z-index: 9999;
+    display: none;
 }
 
 
