@@ -64,7 +64,23 @@
     border-radius: 10px ;
     height: 100%;
     width: 100%;
-    animation: upanddown 4s linear infinite;
+    animation: upanddown 6s linear infinite;
+}
+@keyframes upanddown {
+    0%{
+        transform: translateY(10px)skew(0deg)scale(1.1);
+        
+    }
+    50%{
+        transform: translateY(0px)scale(0.8);
+    }
+    100%{
+        transform: translateY(10px)skew(0deg) scale(1.1);;
+    }
+}
+.img-box img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
 }
 .about-container h3{
  font-size: 20px;
@@ -123,17 +139,7 @@ color: purple;
     height: 40px;
     margin: 5px auto;
 }
-@keyframes upanddown {
-    0%{
-        transform: translateY(20px)skew(2deg);;
-    }
-    50%{
-        transform: translateY(0px);
-    }
-    100%{
-        transform: translateY(20px)skew(2deg);;
-    }
-}
+
 .about{
     position: relative;
     margin-top: 150px;
@@ -294,13 +300,13 @@ textarea{
  }
  .wrapper::before{
      content: "";
-     height: 350px;
-     width: 500px;
+     height: 320px;
+     width: 550px;
      top: 25%;
-     border-radius: 100px 200px 200px 100px ;
+     border-radius: 100px 200px 20px 100px ;
      right: 0px;
-     transform: skew(35deg,12deg);
-     background-color: rgb(167, 49, 167);
+     transform: skew(40deg,12deg);
+     background-color: rgb(146, 63, 146);
  }
  .wrapper{
     
@@ -384,14 +390,14 @@ textarea{
 
 }
 
-@media  screen and (max-width:1200px) and (min-width: 610px) {
+@media  screen and (max-width:1500px) and (min-width: 601px) {
     .img-box{
       
         margin-left: 0px;
-        width: 450px;
-        max-width: 400px;
+        width: 300px;
+        max-width: 300px;
         margin-right: 50px;
-        min-width:200px;
+        min-width:180px;
         
     
     }
