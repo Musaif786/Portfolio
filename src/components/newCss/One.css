@@ -19,7 +19,7 @@
 .h1-box h1{
     padding:2px;
     font-size: 24px;
-    animation: slide 4s linear infinite;
+    animation: slide 5s linear infinite;
     text-align: center;
 }
 @keyframes slide {
@@ -64,7 +64,7 @@
     border-radius: 10px ;
     height: 100%;
     width: 100%;
-    animation: upanddown 3s linear infinite;
+    animation: upanddown 4s linear infinite;
 }
 .about-container h3{
  font-size: 20px;
@@ -98,6 +98,7 @@ color: purple;
     width: 200px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
+    
 }
 .about-container p{
     font-size: 18px;
@@ -124,13 +125,13 @@ color: purple;
 }
 @keyframes upanddown {
     0%{
-        transform: translateY(20px);
+        transform: translateY(20px)skew(2deg);;
     }
     50%{
         transform: translateY(0px);
     }
     100%{
-        transform: translateY(20px);
+        transform: translateY(20px)skew(2deg);;
     }
 }
 .about{
@@ -293,10 +294,13 @@ textarea{
  }
  .wrapper::before{
      content: "";
-     height: 320px;
-     width: 450px;
-     top: 21%;
+     height: 350px;
+     width: 500px;
+     top: 25%;
+     border-radius: 100px 200px 200px 100px ;
      right: 0px;
+     transform: skew(35deg,12deg);
+     background-color: rgb(167, 49, 167);
  }
  .wrapper{
     
