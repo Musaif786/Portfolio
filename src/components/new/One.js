@@ -16,12 +16,12 @@ function One() {
           <div className="h1-box" data-aos="zoom-in-down"
 >
             <h1>
-              Hi, I am <span>Mohammed Musaif</span> Full stack web developer{" "}
+              Hi, I am <span>Mohammed Musaif</span> Full stack web developer & Mobile software Technician
             </h1>
           </div>
           <div className="img-box">
             <img
-              src="https://source.unsplash.com/400x250/?software/programmer"
+              src="https://source.unsplash.com/400x250/?computer/hacker"
               alt="auto/img"
             />
           </div>
