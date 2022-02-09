@@ -45,6 +45,7 @@
     margin-top: 100px;
     margin-right: 15px;
     
+    
 
 }
 .wrapper::before{
@@ -300,12 +301,12 @@ textarea{
  }
  .wrapper::before{
      content: "";
-     height: 320px;
-     width: 550px;
-     top: 25%;
-     border-radius: 100px 200px 20px 100px ;
+     height: 300px;
+     width: 350px;
+     top: 30%;
+     border-radius: 5px 50px 5px 120px ;
      right: 0px;
-     transform: skew(40deg,12deg);
+     transform: skew(0deg,30deg);
      background-color: rgb(146, 63, 146);
  }
  .wrapper{
