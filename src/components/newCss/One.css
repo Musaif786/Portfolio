@@ -348,6 +348,7 @@ textarea{
      position: absolute;
      height: 250px;
      width: 160px; 
+     border-radius: 5px;
 
  }
  .about{
