@@ -1,0 +1,30 @@
+footer{
+    background-color: rgb(137, 151, 165);
+    background-color: white;
+    border-top: 1px solid  rgb(137, 151, 165);
+    margin: 0px auto;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 0%;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    margin: auto 8px;
+    color: black;
+    font-size: 14px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+#footer{
+    font-size: 12px;
+    margin: 0px;
+}

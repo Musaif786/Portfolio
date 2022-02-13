@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../newCss/One.css";
 import Contact from "./Contact";
 import Register from "./Register";
+import Footer from "./Footer";
 
 
 function One() {
@@ -213,6 +214,10 @@ function One() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
       <Register/>
+    </div>
+
+    <div id="footer" className="footer">
+  <Footer/>
     </div>
 
 
