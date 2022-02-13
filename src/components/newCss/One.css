@@ -85,6 +85,7 @@
     cursor: pointer;
 }
 /* //about */
+/* added img toggle btn */
 .about-img.aboutImg{
     height: 100vh;
     width: 100%;
@@ -92,6 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .about-img.aboutImg img{
     height: 380px;
@@ -118,10 +120,12 @@ color: purple;
 .about-container button a{
     text-decoration: none;
 }
+
 .about-img{
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .about-img img{
