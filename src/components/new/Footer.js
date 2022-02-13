@@ -17,6 +17,9 @@ function Footer() {
 </a></li>
          </ul>
         </footer>
+         <div className='footer-div'>
+             Musaif  	&copy;2022
+         </div>
     </>
   )
 }

@@ -230,6 +230,20 @@ color: purple;
     margin-top: 100px;
 
 }
+#register-error{
+    color: red;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.btn-div button{
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.btn-div button:hover{
+    background: rgb(60, 160, 60);
+    cursor: pointer;
+    color: white;
+}
 .form-wrapper{
     width: 90%;
     margin: 100px auto;
@@ -239,6 +253,7 @@ form{
     
 display: block;
 background-color: rgb(175, 175, 175);
+border-radius: 5px;
 width: 80%;
 display: flex;
 justify-content: center;
@@ -251,9 +266,11 @@ form input{
     border: 1px solid black;
     margin: 10px auto;
     width: 60%;
+
 }
 form label{
     margin: 10px auto;
+    cursor: pointer;
     
 }
 textarea{
@@ -387,6 +404,7 @@ textarea{
  .contact form{
     
      width: 100%;
+     
  }
  #register-error{
      margin: auto;
