@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../newCss/One.css";
 import Contact from "./Contact";
 import Register from "./Register";
@@ -7,6 +7,17 @@ import Footer from "./Footer";
 
 function One() {
 
+  useEffect(()=>{
+   const imgFull =()=>{
+     let img = document.querySelector(".about-img");
+     img.addEventListener("click",()=>{
+      //  img.style.height = "500px";
+      img.classList.toggle("aboutImg");
+     });
+   }
+   imgFull();
+  },[])
+  
   
   
   //const width = window.innerWidth;
