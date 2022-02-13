@@ -28,3 +28,19 @@ footer ul li a{
     font-size: 12px;
     margin: 0px;
 }
+@media only screen and (max-width:600px){
+    footer{
+        padding-bottom: 0px;
+    }
+
+    footer ul li{
+        list-style: none;
+        margin: auto 5px;
+        color: red;
+        font-size: 12px;
+    }
+    footer ul li a{
+        text-decoration: none;
+        color: black;
+    }
+}
