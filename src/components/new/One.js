@@ -51,7 +51,7 @@ function One() {
               <img
                 src="./images/musaif.jpg"
               alt="auto/img"
-                alt="auto/img"
+              
               />
             </div>
             <h3 data-aos="zoom-in-down">Mohammed Musaif</h3>
@@ -181,7 +181,7 @@ function One() {
                 alt="auto/img"
               /></a>
 
-<a href="https://musaif-connecting-people.netlify.app/"> <img data-aos="flip-left"
+<a href="https://musaif-chatbox.netlify.app/"> <img data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"
  
