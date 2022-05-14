@@ -28,8 +28,8 @@ function One() {
           <div className="h1-box" data-aos="zoom-in-down"
 >
             <h1>
-              Hi, I am <span>Mohammed Musaif</span> Full stack web developer & Mobile software Technician
-            </h1>
+              Hi, I am <span>Mohammed Musaif</span> Full stack React developer & splunk admin/ Developer in solugenix india
+              </h1>
           </div>
           <div className="img-box">
             <img
@@ -118,6 +118,14 @@ function One() {
                 max="100"
               ></progress>
               <p>Core Java</p>
+              <hr />
+              <progress
+                data-aos="zoom-in-down"
+
+                value="60"
+                max="100"
+              ></progress>
+              <p>Python</p>
               <hr />
               <progress
                 data-aos="zoom-in-down"

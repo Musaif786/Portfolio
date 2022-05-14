@@ -70,14 +70,14 @@
 }
 @keyframes upanddown {
     0%{
-        transform: translateY(10px)skew(0deg)scale(1.1);
+        transform: translateY(10px) skew(0deg) scale(1.1);
         
     }
     50%{
-        transform: translateY(0px)scale(0.8);
+        transform: translateY(0px) scale(0.8);
     }
     100%{
-        transform: translateY(10px)skew(0deg) scale(1.1);;
+        transform: translateY(10px) skew(0deg) scale(1.1);;
     }
 }
 .img-box img:hover{

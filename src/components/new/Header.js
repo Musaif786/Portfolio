@@ -19,25 +19,29 @@ function Header() {
    let up = document.querySelector("#up");
    let down = document.querySelector("#down");
 
-   btn.addEventListener("click", ()=>{
-         //ul.style.display = "block";
-         ul.classList.toggle("openbar");
+   ul.classList.toggle("openbar");
          up.classList.toggle("openbar");
          down.classList.toggle("openbar");
 
+  //  btn.addEventListener("click", ()=>{
+  //        //ul.style.display = "block";
+  //        ul.classList.toggle("openbar");
+  //        up.classList.toggle("openbar");
+  //        down.classList.toggle("openbar");
 
-        })
+
+  //       })
     
   }
 
   useEffect(()=>{
-    toggleBtn();
+    // toggleBtn();
   });
 
   return (
     <>
       <header>
-        <div className="header-box">
+        <div onClick={toggleBtn} className="header-box">
           <div className="logo">
             <h1>Musaif</h1>
           </div>
