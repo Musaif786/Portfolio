@@ -10,7 +10,7 @@
 
 # production
 /build
-/tudobox
+/src/components/tudobox
 
 # misc
 .DS_Store
