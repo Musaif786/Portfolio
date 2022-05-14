@@ -28,7 +28,7 @@ function One() {
           <div className="h1-box" data-aos="zoom-in-down"
 >
             <h1>
-              Hi, I am <span>Mohammed Musaif</span> Full stack web developer & Mobile software Technician
+              Hi, I am <span>Mohammed Musaif</span> Full stack React developer & Splunk Admin/Develpoer in Solugenix India.
             </h1>
           </div>
           <div className="img-box">
