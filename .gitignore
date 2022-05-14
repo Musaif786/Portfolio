@@ -10,6 +10,7 @@
 
 # production
 /build
+/tudobox
 
 # misc
 .DS_Store
