@@ -189,7 +189,7 @@ function One() {
                 alt="auto/img"
               /></a>
 
-<a href="https://musaif-chatbox.netlify.app/"> <img data-aos="flip-left"
+<a href="https://musaifchat.netlify.app/"> <img data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"
  
