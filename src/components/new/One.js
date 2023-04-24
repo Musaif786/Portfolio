@@ -150,7 +150,14 @@ function One() {
                   alt="auto/img"
                 />
               </a>
-
+              <a href="https://musaifapi.netlify.app">
+                {" "}
+                <img
+                  data-aos="zoom-in-down"
+                  src="./images/apiwebsite.png"
+                  alt="auto/img"
+                />
+              </a>
               <a href="https://musaif-database.netlify.app/">
                 {" "}
                 <img
@@ -177,6 +184,16 @@ function One() {
                 <img
                   data-aos="zoom-in-down"
                   src="./images/Screenshot (40).png"
+                  alt="auto/img"
+                />
+              </a>
+              <a href="https://musaifchat.netlify.app/">
+                {" "}
+                <img
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  src="./images/chatwebsite.png"
                   alt="auto/img"
                 />
               </a>
