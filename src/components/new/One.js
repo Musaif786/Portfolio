@@ -187,7 +187,7 @@ function One() {
                   alt="auto/img"
                 />
               </a>
-              <a href="https://musaifchat.netlify.app/">
+              <a href="https://musaif-ads.netlify.app/">
                 {" "}
                 <img
                   data-aos="flip-left"
