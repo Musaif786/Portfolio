@@ -1,5 +1,5 @@
 import React,{ useEffect } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Tudo from "./components/tudobox/Tudo";
 import One from "./components/new/One";
