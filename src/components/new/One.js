@@ -79,10 +79,10 @@ function One() {
               <progress data-aos="zoom-in-down" value="80" max="100"></progress>
               <p>Core Java</p>
               <hr />
-              <progress data-aos="zoom-in-down" value="60" max="100"></progress>
+              <progress data-aos="zoom-in-down" value="70" max="100"></progress>
               <p>Python</p>
               <hr />
-              <progress data-aos="zoom-in-down" value="60" max="100"></progress>
+              <progress data-aos="zoom-in-down" value="80" max="100"></progress>
               <p>Firebase</p>
               <hr />
               <progress data-aos="zoom-in-down" value="40" max="100"></progress>
@@ -90,6 +90,12 @@ function One() {
               <hr />
               <progress data-aos="zoom-in-down" value="50" max="100"></progress>
               <p>Mysqli CRUD</p>
+              <hr />
+              <progress data-aos="zoom-in-down" value="70" max="100"></progress>
+              <p>Mongoose</p>
+              <hr />
+              <progress data-aos="zoom-in-down" value="60" max="100"></progress>
+              <p>Express</p>
               <hr />
             </div>
           </div>

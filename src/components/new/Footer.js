@@ -1,7 +1,21 @@
 import React from 'react'
+import moment from 'moment'
 import "../newCss/Footer.css";
 
 function Footer() {
+  // const current_date = new Date()
+  // const current_new = new Date()
+  const fixeddate = moment('2022-02-02','YYYY-MM-DD') 
+  const currentdate = moment()
+  const differentDate = currentdate.diff(fixeddate,'days')
+  const style ={
+    letterSpacing: '1px',
+    color: 'black',
+    fontSize: '16px',
+    textDecoration: 'none',
+    cursor:"default",
+
+  }
   return (
     <>
         <footer>
@@ -18,7 +32,7 @@ function Footer() {
          </ul>
         </footer>
          <div className='footer-div'>
-             Musaif  	&copy;2022
+            <a style={style} href='https://tinyurl.com/2zfr4syl/FindMyDevice'> Musaif</a>	Created &copy;{differentDate} Days Ago, Now &copy;{currentdate.format('YYYY-MM-DD')}
          </div>
     </>
   )
