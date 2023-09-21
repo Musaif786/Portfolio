@@ -32,7 +32,7 @@ function Footer() {
          </ul>
         </footer>
          <div className='footer-div'>
-            <a style={style} href='https://tinyurl.com/2zfr4syl/FindMyDevice'> Musaif</a>	Created &copy;{differentDate} Days Ago, Now &copy;{currentdate.format('YYYY-MM-DD')}
+            <a style={style} href='https://tinyurl.com/2zfr4syl/speak?speak=Hello world welcome to automation world'> Musaif</a>	Created &copy;{differentDate} Days Ago, Now &copy;{currentdate.format('YYYY-MM-DD')}
          </div>
     </>
   )

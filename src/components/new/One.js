@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+//import Resume from '../../../public/images/myresume.pdf'
 import "../newCss/One.css";
 import Contact from "./Contact";
 import Register from "./Register";
@@ -45,10 +46,15 @@ function One() {
             </div>
             <h3 data-aos="zoom-in-down">Mohammed Musaif</h3>
             <p data-aos="zoom-in-down">
-              my name is Md Musaif. i'm from Hyderabad, telangana. i did my
-              graduation in b.tech from CMR engineering college.
+              I am Musaif, a dedicated and skilled programmer with a
+              strong educational foundation. I completed my graduation in 2021,
+              and since then, I've been on a journey to excel in the world of
+              software development. My passion for coding, problem-solving, and
+              continuous learning drives my pursuit of excellence in the field.
               <button>
-                <a href="https://musaifresume.000webhostapp.com/">More</a>
+                {/* <a href="https://musaifresume.000webhostapp.com/">More</a> */}
+                {/* download btn */}
+              <a href='./images/myresume.pdf' download='resume.pdf'>Download</a>
               </button>
             </p>
           </div>
@@ -122,11 +128,13 @@ function One() {
           <div className="projects">
             <div className="projects-imgs">
               <p data-aos="zoom-in-down">
-                Below are the projects which are created and developed by Musaif.
-                by click on the photo you will redirect to main website. aliquam
-                possimus dolorum recusandae laudantium assumenda incidunt veritatis sint vitae.
+                Below are the projects which are created and developed by
+                Musaif. by click on the photo you will redirect to main website.
+                aliquam possimus dolorum recusandae laudantium assumenda
+                incidunt veritatis sint vitae.
               </p>
               <a href="https://zfwork.netlify.app/">
+              
                 {" "}
                 <img
                   data-aos="flip-left"
