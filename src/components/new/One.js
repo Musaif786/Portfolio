@@ -54,7 +54,7 @@ function One() {
               <button>
                 {/* <a href="https://musaifresume.000webhostapp.com/">More</a> */}
                 {/* download btn */}
-              <a href='./images/myresume.pdf' download='resume.pdf'>Download</a>
+              <a href='./images/Musaif-Resume-D.pdf' download='resume.pdf'>Download</a>
               </button>
             </p>
           </div>
