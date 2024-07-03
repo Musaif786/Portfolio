@@ -23,3 +23,11 @@ tudobox/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#All_in_one/terraform-github-project/github-provider/terraform.tfvars
+#terraform-github-project/github-provider/terraform.tfstate.backup
+#/terraform-github-project/github-provider/terraform.tfstate.backup
+#*terraform.tfvars
+#*terraform.tfstate
+#*terraform.lock.hcl
+*Tudolist\public\images
