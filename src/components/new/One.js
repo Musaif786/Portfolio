@@ -6,6 +6,8 @@ import Register from "./Register";
 import Footer from "./Footer";
 
 function One() {
+
+  const [randomPhoto, setRandomPhoto] = useState('');
   useEffect(() => {
     const imgFull = () => {
       let img = document.querySelector(".about-img");
@@ -15,6 +17,33 @@ function One() {
       });
     };
     imgFull();
+
+    const fetchRandomPhoto = async () => {
+      
+      const apiKey = 'wCYj8T5TMJgfkOjU4GohaXhPTR4ivnanIoRM64SolxQ'; // Replace with your actual API key
+      const apiUrl = 'https://api.unsplash.com/photos/random';
+      
+
+      try {
+          const response = await fetch(apiUrl, {
+              headers: {
+                  'Authorization': `Client-ID ${apiKey}`
+              }
+          });
+
+          if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const data = await response.json();
+          setRandomPhoto(data.urls.regular);
+      } catch (error) {
+          console.error('Error fetching random photo:', error);
+      }
+  };
+
+  fetchRandomPhoto();
+
   }, []);
 
   //const width = window.innerWidth;
@@ -30,7 +59,7 @@ function One() {
           </div>
           <div className="img-box">
             <img
-              src="https://source.unsplash.com/400x250/?computer/hacker"
+              src={randomPhoto}
               alt="auto/img"
             />
           </div>
