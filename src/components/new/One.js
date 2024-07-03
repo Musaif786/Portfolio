@@ -94,7 +94,7 @@ function One() {
             <h1>Skills</h1>
           </div>
           <div className="skills-container">
-            <h3 data-aos="zoom-in-down"> professional skills </h3>
+            <h3 data-aos="zoom-in-down"> Professional skills </h3>
             <div className="progress-box">
               <progress data-aos="zoom-in-down" value="90" max="100"></progress>
               <p>HTML</p>
@@ -131,6 +131,12 @@ function One() {
               <hr />
               <progress data-aos="zoom-in-down" value="60" max="100"></progress>
               <p>Express</p>
+              <hr />
+              <progress data-aos="zoom-in-down" value="70" max="100"></progress>
+              <p>Terraforn</p>
+              <hr />
+              <progress data-aos="zoom-in-down" value="60" max="100"></progress>
+              <p>Ansible</p>
               <hr />
             </div>
           </div>
