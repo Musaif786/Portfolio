@@ -50,7 +50,7 @@ function One() {
               strong educational foundation. I completed my graduation in 2021,
               and since then, I've been on a journey to excel in the world of
               software development. My passion for coding, problem-solving, and
-              continuous learning drives my pursuit of excellence in the field.test
+              continuous learning drives my pursuit of excellence in the field.
               <button>
                 {/* <a href="https://musaifresume.000webhostapp.com/">More</a> */}
                 {/* download btn */}
