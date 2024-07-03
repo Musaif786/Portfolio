@@ -60,7 +60,7 @@ function One() {
           <div className="img-box">
             <img
               src={randomPhoto}
-              alt="auto/img"
+              alt="Auto/img"
             />
           </div>
         </div>
@@ -96,7 +96,7 @@ function One() {
           <div className="skills-container">
             <h3 data-aos="zoom-in-down"> Professional skills </h3>
             <div className="progress-box">
-              <progress data-aos="zoom-in-down" value="90" max="100"></progress>
+              <progress data-aos="zoom-in-down" value="90" max="100" ></progress>
               <p>HTML</p>
               <hr />
               <progress data-aos="zoom-in-down" value="90" max="100"></progress>
