@@ -12,7 +12,9 @@ tudobox/
 
 # production
 /build
-/images
+*images*
+*.png
+*.pdf
 
 # misc
 .DS_Store
