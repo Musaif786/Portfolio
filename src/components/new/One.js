@@ -151,6 +151,8 @@ function One() {
               <li data-aos="zoom-in-down">VSCode</li>
               <li data-aos="zoom-in-down">Eclipse</li>
               <li data-aos="zoom-in-down">Github</li>
+              <li data-aos="zoom-in-down">AWS</li>
+              <li data-aos="zoom-in-down">Splunk</li>
             </ol>
           </div>
         </div>
