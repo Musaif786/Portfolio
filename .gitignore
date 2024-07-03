@@ -34,3 +34,4 @@ yarn-error.log*
 *images*
 *.png*
 *.pdf*
+public/images/
