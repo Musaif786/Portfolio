@@ -20,7 +20,7 @@ function One() {
 
     const fetchRandomPhoto = async () => {
       
-      const apiKey = 'wCYj8T5TMJgfkOjU4GohaXhPTR4ivnanIoRM64SolxQ'; // Replace with your actual API key
+      const apiKey = 'wCYj8T5TMJgfkOjU4GohaXhPTR4ivnanIoRM64SolxQ';
       const apiUrl = 'https://api.unsplash.com/photos/random';
       
 
@@ -60,7 +60,7 @@ function One() {
           <div className="img-box">
             <img
               src={randomPhoto}
-              alt="Auto/img"
+              alt="Auto/img 50 request per day"
             />
           </div>
         </div>
