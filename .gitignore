@@ -12,6 +12,7 @@ tudobox/
 
 # production
 /build
+/images
 
 # misc
 .DS_Store
@@ -30,4 +31,3 @@ yarn-error.log*
 #*terraform.tfvars
 #*terraform.tfstate
 #*terraform.lock.hcl
-/images
