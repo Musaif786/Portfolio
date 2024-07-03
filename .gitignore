@@ -30,4 +30,4 @@ yarn-error.log*
 #*terraform.tfvars
 #*terraform.tfstate
 #*terraform.lock.hcl
-/public/images
+/images
