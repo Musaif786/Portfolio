@@ -4,6 +4,7 @@ import "../newCss/One.css";
 import Contact from "./Contact";
 import Register from "./Register";
 import Footer from "./Footer";
+import Linkedin from './Linkedin';
 
 function One() {
 
@@ -65,13 +66,23 @@ function One() {
           </div>
         </div>
 
+          {/* <div>
+            <Linkedin/>
+          </div> */}
         <div id="about" className="about">
           <div className="about-h1" data-aos="zoom-in-down">
             <h1>About</h1>
           </div>
           <div className="about-container" data-aos="zoom-in-down">
+          <div className="linkdinContainer">
             <div className="about-img">
               <img src="./images/musaif.jpg" alt="auto/img" />
+            </div>
+            <div className="about-img" id="linkdin">
+              <Linkedin/>
+            </div>
+
+
             </div>
             <h3 data-aos="zoom-in-down">Mohammed Musaif</h3>
             <p data-aos="zoom-in-down">

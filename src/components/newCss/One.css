@@ -129,6 +129,17 @@ color: purple;
     cursor: pointer;
 
 }
+.linkdinContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ }
+ .linkdinContainer > div {
+    margin: 5px 50px;
+    margin-bottom: 80px;
+    padding: 10px;
+  }
 .about-img img{
     height: 200px;
     width: 200px;
@@ -409,6 +420,15 @@ textarea{
      text-align: center;
      
  }
+
+ .linkdinContainer > div {
+    margin: 2px;
+    margin-bottom: 55px;
+    padding: 1px;
+ 
+  }
+
+
  .about-img{
      height: 320px;
  }
